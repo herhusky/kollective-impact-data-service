@@ -16,11 +16,15 @@ Challenge: Department of Child Services [(see DCS-Challenge.pdf)](http://indycha
 Technologies Used:
 * [PactSafe React SDK](https://github.com/pactsafe/pactsafe-react-sdk)
 * React.js Front-end
-* Firebase Back-end
+* Firebase or MS SQL Server Back-end
+* FAAS Back-End (Docker, Node.js, Python, Prometheus) https://github.com/alexellis/faas/blob/master/TestDrive.md
 
-App is split into two parts:
+
+App is split into four parts:
 
 kids-receiver-client is the dashboard view for the Department of Child Services
 kids-sender-client is the client to be used by a third party to submit information to Department of Child Services
+FAAS services, Data obviscation and encrytion for privately linking matching PII. 
+PactSafe - Notary service to automate MOU, EULA for third party NGOs.
 
 To start either app, enter the directory and run `yarn start`
