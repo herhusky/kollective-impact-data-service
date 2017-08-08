@@ -22,9 +22,9 @@ Technologies Used:
 
 App is split into four parts:
 
-kids-receiver-client is the dashboard view for the Department of Child Services
-kids-sender-client is the client to be used by a third party to submit information to Department of Child Services
-FAAS services, Data obviscation and encrytion for privately linking matching PII. 
-PactSafe - Notary service to automate MOU, EULA for third party NGOs.
+* kids-receiver-client is the dashboard view for the Department of Child Services
+* kids-sender-client is the client to be used by a third party to submit information to Department of Child Services
+* FAAS services, Data obviscation and encrytion for privately linking matching PII. 
+* PactSafe - Notary service to automate MOU, EULA for third party NGOs.
 
 To start either app, enter the directory and run `yarn start`
